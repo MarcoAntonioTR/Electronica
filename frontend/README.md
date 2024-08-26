@@ -8,11 +8,11 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-# Sirenah
+# Tienda Recnológica
 
 ## Descripción
 
-Este proyecto es una aplicación de tienda de ropa online. Está construido utilizando Java, Spring Boot, y React. La estructura del proyecto sigue los principios MVC y DAO, y utiliza Spring Security para la gestión de la seguridad.
+Este proyecto es una aplicación de tienda Tecnológica. Está construido utilizando Java, Spring Boot, y React. La estructura del proyecto sigue los principios MVC y DAO, y utiliza Spring Security para la gestión de la seguridad.
 
 ## Estructura del Proyecto
 

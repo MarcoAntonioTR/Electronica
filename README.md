@@ -1,5 +1,5 @@
-# tienda-ropa-sirenah
-Proyecto de una tienda de ropa desarrollado para el curso "Curso Integrador I: Sistemas Software".
+# Tienda Tecnológica
+Proyecto de una tienda de ropa desarrollado para el curso "Marcos De Desarroollo Web".
 
 ## Comandos Git para la gestión de ramas
 
