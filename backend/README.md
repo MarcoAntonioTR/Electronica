@@ -1,8 +1,8 @@
-# Sirenah
+# Tienda Tecnológica
 
 ## Descripción
 
-Este proyecto es una aplicación de tienda de ropa online. Está construido utilizando Java, Spring Boot, y React. La estructura del proyecto sigue los principios MVC y DAO, y utiliza Spring Security para la gestión de la seguridad.
+Este proyecto es una aplicación de tienda de tecnologica. Está construido utilizando Java, Spring Boot, y React. La estructura del proyecto sigue los principios MVC y DAO, y utiliza Spring Security para la gestión de la seguridad.
 
 ## Estructura del Proyecto
 

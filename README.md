@@ -1,5 +1,5 @@
 # Tienda Tecnológica
-Proyecto de una tienda de ropa desarrollado para el curso "Marcos De Desarroollo Web".
+Proyecto de una tienda Tecnológica desarrollado para el curso "Marcos De Desarrollo Web".
 
 ## Comandos Git para la gestión de ramas
 
