@@ -18,20 +18,20 @@ Este proyecto es una aplicación de tienda Tecnológica. Está construido utiliz
 
 ### Frontend
 
-src
-├── assets            // Archivos estáticos como imágenes, fuentes, etc.
-├── components        // Componentes reutilizables del proyecto
-│   ├── common        // Componentes comunes utilizados en múltiples partes de la aplicación
-│   ├── hooks         // Hooks personalizados para manejar la lógica de estado y efectos
-│   ├── layout        // Componentes de diseño de la interfaz de usuario (Header, Footer, etc.)
-├── config            // Configuraciones globales de la aplicación (APIs, entornos, etc.)
-├── constants         // Constantes utilizadas en toda la aplicación
-├── routes            // Configuración de las rutas de la aplicación
-├── services          // Servicios para la comunicación con APIs o manejo de lógica de negocio
-├── stateManagement   // Manejo de estado global de la aplicación (Redux, Context API, etc.)
-├── styles            // Archivos de estilos globales y específicos
-├── tests             // Archivos de pruebas unitarias e integración
-├── utils             // Funciones utilitarias para facilitar el manejo de datos y lógica
-└── views             // Vistas principales de la aplicación
-    ├── Home          // Vista de la página principal
-    └── Login         // Vista de la página de login
+src <br/>
+├── assets            // Archivos estáticos como imágenes, fuentes, etc.<br/>
+├── components        // Componentes reutilizables del proyecto. <br/>
+│   ├── common        // Componentes comunes utilizados en múltiples partes de la aplicación.<br/>
+│   ├── hooks         // Hooks personalizados para manejar la lógica de estado y efectos.<br/>
+│   ├── layout        // Componentes de diseño de la interfaz de usuario (Header, Footer, etc.).<br/>
+├── config            // Configuraciones globales de la aplicación (APIs, entornos, etc.). <br/>
+├── constants         // Constantes utilizadas en toda la aplicación.<br/>
+├── routes            // Configuración de las rutas de la aplicación. <br/>
+├── services          // Servicios para la comunicación con APIs o manejo de lógica de negocio. <br/>
+├── stateManagement   // Manejo de estado global de la aplicación (Redux, Context API, etc.). <br/>
+├── styles            // Archivos de estilos globales y específicos. <br/>
+├── tests             // Archivos de pruebas unitarias e integración. <br/>
+├── utils             // Funciones utilitarias para facilitar el manejo de datos y lógica. <br/>
+└── views             // Vistas principales de la aplicación. <br/>
+    ├── Home          // Vista de la página principal. <br/>
+    └── Login         // Vista de la página de login. <br/>
