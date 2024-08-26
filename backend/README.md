@@ -7,9 +7,6 @@ Este proyecto es una aplicación de tienda de tecnologica. Está construido util
 ## Estructura del Proyecto
 
 ### Backend
-
-com
-└── sirenah
     └── backend
         ├── config           // Configuraciones de la aplicación (Spring Security, JPA, etc.)
         ├── controller       // Controladores que gestionan las peticiones HTTP y responden con vistas o datos
@@ -22,4 +19,6 @@ com
         ├── util             // Clases de utilidad para funciones auxiliares y comunes
         ├── App.java         // Clase principal que arranca la aplicación Spring Boot
         └── security         // Configuraciones y componentes de seguridad (Spring Security)
+
+
 
