@@ -32,6 +32,6 @@ src <br/>
 ├── styles            // Archivos de estilos globales y específicos. <br/>
 ├── tests             // Archivos de pruebas unitarias e integración. <br/>
 ├── utils             // Funciones utilitarias para facilitar el manejo de datos y lógica. <br/>
-└── views             // Vistas principales de la aplicación. <br/>
-    ├── Home          // Vista de la página principal. <br/>
-    └── Login         // Vista de la página de login. <br/>
+├── views             // Vistas principales de la aplicación. <br/>
+│   ├── Home          // Vista de la página principal. <br/>
+│   ├── Login         // Vista de la página de login. <br/>
