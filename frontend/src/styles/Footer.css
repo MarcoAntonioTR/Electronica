@@ -1,0 +1,53 @@
+/* Importación de fuentes desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+.footer-dark .footer-link:hover,
+.footer-light .footer-link:hover {
+    color: #007bff;
+    /* O el color que prefieras para el hover */
+}
+
+footer {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.text-decoration-none {
+    text-decoration: none;
+}
+
+/* Clase personalizada para sombra en hover según tema */
+.text-shadow-hover {
+    transition: text-shadow 0.3s ease;
+    /* Añade una transición suave */
+}
+
+.text-shadow-hover-light:hover {
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.5);
+    /* Sombra blanca para tema oscuro */
+}
+
+.text-shadow-hover-dark:hover {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Sombra negra para tema claro */
+}
+
+/* Clase personalizada para sombra en íconos según tema */
+.icon-shadow-hover {
+    transition: filter 0.3s ease;
+    /* Transición suave para la sombra */
+}
+
+.icon-shadow-hover-light:hover {
+    filter: drop-shadow(2px 2px 4px rgba(255, 255, 255, 0.5));
+    /* Sombra blanca para tema oscuro */
+}
+
+.icon-shadow-hover-dark:hover {
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+    /* Sombra negra para tema claro */
+}

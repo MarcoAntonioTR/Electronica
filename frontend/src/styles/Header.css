@@ -1,0 +1,39 @@
+
+/* Importación de fuentes desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+.navbar-brand img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.navbar-brand span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+    /* Fuente para el nombre del sitio */
+}
+
+/* Estilos para los enlaces del menú desplegable */
+.nav-item.dropdown .nav-link {
+    font-family: 'Source Sans Pro', sans-serif;
+    /* Fuente moderna y limpia para los enlaces */
+}
+
+.dropdown-menu {
+    font-family: 'Poppins', sans-serif;
+    /* Fuente amigable y fácil de leer para el menú desplegable */
+}
+
+/* Botones */
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    /* Fuente elegante y moderna para los botones */
+}
+
+
+
