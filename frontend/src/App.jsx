@@ -1,12 +1,11 @@
-import React from 'react'
+import Rutas from './routes/Rutas'
 
 function App() {
   return (
     <div>
-      
+      <Rutas />
     </div>
-  )
+  );
 }
 
-export default App
-
+export default App;
