@@ -92,7 +92,6 @@ function Header({ isDarkTheme, toggleTheme }) {
             {menuItems.map((item, index) => (
               <li
                 key={index}
-                style={{ margin: "0 15px" }}
                 className="nav-item dropdown"
                 onMouseEnter={(e) => {
                   if (item.subcategories.length > 0) {
@@ -139,14 +138,6 @@ function Header({ isDarkTheme, toggleTheme }) {
             ))}
           </ul>
           <div className="d-flex align-items-center">
-            <button
-              className={`btn ${
-                isDarkTheme ? "btn-outline-light" : "btn-outline-dark"
-              } me-2`}
-              type="button"
-            >
-              Contacto
-            </button>
             <button
               className={`btn ${
                 isDarkTheme ? "btn-outline-light" : "btn-outline-dark"

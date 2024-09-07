@@ -1,0 +1,333 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.carousel-item {
+  position: relative;
+  height: auto; 
+  overflow: hidden; 
+}
+
+.carousel-item img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 1; 
+  transition: opacity 0.5s ease; 
+}
+
+.carousel-caption {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  max-width: 80%; 
+  font-family: 'Lora', serif;
+}
+
+.carousel-caption h5 {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+.carousel-caption p {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-family: 'Source Sans', sans-serif;
+}
+
+@media (max-width: 768px) {
+  .carousel-item {
+    height: auto;
+  }
+
+  .carousel-caption {
+    padding: 10px;
+    max-width: 90%;
+  }
+
+  .carousel-caption h5 {
+    font-size: 1.5rem;
+  }
+
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel-item {
+    height: auto;
+  }
+
+  .carousel-caption {
+    padding: 5px;
+    max-width: 95%;
+  }
+
+  .carousel-caption h5 {
+    font-size: 1rem;
+  }
+
+  .carousel-caption p {
+    font-size: 0.7rem;
+  }
+}
+
+/*Sobre Nosotros*/
+.about-us-section {
+  background-size: cover;
+  color: #fff;
+  position: relative;
+  padding: 5rem 0;
+}
+
+.about-us-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.15); 
+  z-index: 1;
+}
+
+.about-us-content {
+  position: relative;
+  z-index: 2;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+}
+
+.about-us-content h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.about-us-content p {
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: justify;
+  font-family: 'Source Sans', sans-serif;
+}
+
+.about-us-image-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px; 
+  box-shadow: 0 4px 8px rgba(0,0,0,0.8); 
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.about-us-image {
+  transition: transform 0.5s ease;
+  transform: scale(1);
+}
+
+.about-us-image-container:hover .about-us-image {
+  transform: scale(1.5); 
+}
+
+@media (max-width: 768px) {
+  .about-us-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .about-us-content p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .about-us-content h2 {
+    font-size: 1rem;
+  }
+
+  .about-us-content p {
+    font-size: 0.7rem;
+  }
+}
+
+/*Categoria de Productos*/
+.stitle {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+.product-category-section {
+  padding: 5rem 0;
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  height: 500px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 0.5rem;
+  color: #000
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+@media (max-width: 768px) {
+  .card-title {
+    font-size: 1.25rem;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .card-title {
+    font-size: 1rem;
+  }
+  
+  .card-text {
+    font-size: 0.8rem;
+  }
+}
+
+.card-button {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.card-button .btn {
+  background-color: #007bff; 
+  color: #fff; 
+  border: none;
+  border-radius: 50px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-button .btn:hover {
+  background-color: #0056b3; 
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Contacto */
+.contact-section {
+  padding: 5rem 0;
+  background: rgba(0, 0, 0, 0.15);
+}
+
+.contact-section h4 {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #000; 
+}
+
+.contact-section .form-control {
+  border-radius: 15px; 
+  border: 1px solid #ced4da;
+  padding: 0.75rem;
+  margin: 10px 0px;
+  transition: all 0.3s ease;
+}
+
+.contact-section .form-control:focus {
+  border-color: #007bff; 
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+}
+
+.contact-section .btn-primary {
+  background-color: #007bff; 
+  border-color: #007bff;
+  border-radius: 50px; 
+  padding: 0.75rem 1.25rem;
+  font-family: 'Montserrat', sans-serif;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-section .btn-primary:hover {
+  background-color: #0056b3; 
+  border-color: #004085;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+}
+
+.contact-section .form-group {
+  margin-bottom: 1.5rem;
+}
+
+.dark-mode .contact-section {
+  background: rgba(0, 0, 0, 0.15); 
+}
+
+.dark-mode .form-control {
+  background-color: #1e1e1e; 
+  border-color: #333; 
+  color: #f8f9fa; 
+}
+
+.dark-mode .form-control:focus {
+  border-color: #007bff; 
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+}
+
+.dark-mode .btn-primary {
+  background-color: #007bff; 
+  border-color: #007bff;
+}
+
+.dark-mode .btn-primary:hover {
+  background-color: #0056b3; 
+}
+
+.dark-mode .contact-section h4 {
+  color: #f8f9fa; 
+}
+
