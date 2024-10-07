@@ -1,0 +1,37 @@
+.navbar {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; 
+  }
+  
+  
+  .navbar-brand img {
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .navbar-brand span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Lora', serif;
+  }
+  
+  .nav-item.dropdown .nav-link {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  .dropdown-menu {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .btn {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  
+  body {
+    padding-top: 70px; 
+  }
+  

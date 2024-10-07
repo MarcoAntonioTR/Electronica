@@ -1,0 +1,66 @@
+.search-input {
+    border: 2px solid #007bff;
+    transition: border-color 0.3s;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+.search-input:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+}
+
+.form-select {
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 12px;
+}
+
+.card-hover:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.card-image-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.card-image-container:hover img {
+    transform: scale(1.1);
+    /* Efecto de zoom */
+}
+
+.hover-effect {
+    position: relative;
+    overflow: hidden;
+}
+
+.hover-effect:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.3);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.hover-effect:hover:before {
+    opacity: 1;
+}
+
+.card-body {
+    transition: background-color 0.3s;
+}
+
+.card-body:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}

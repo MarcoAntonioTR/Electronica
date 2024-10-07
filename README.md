@@ -5,7 +5,7 @@ Proyecto de una tienda Tecnológica desarrollado para el curso "Marcos De Desarr
 
 
 ### 0. Clonar el repositorio
-git clone https://github.com/usuario/tienda-ropa-sirenah.git
+git clone https://github.com/MarcoAntonioTR/Electronica.git
 
 ### 0. Traer los cambios del repositorio remoto
 git pull origin nombre-de-la-rama
