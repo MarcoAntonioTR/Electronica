@@ -6,7 +6,7 @@ CREATE TABLE Administrador (
   email VARCHAR(50) NOT NULL,
   contrasena VARCHAR(50) NOT NULL,
   telefono VARCHAR(9) NOT NULL,
-  estado BIT NOT NULL
+  estado BIT DEFAULT 1 NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- Estructura de tabla para la tabla `direccion`
@@ -28,7 +28,7 @@ CREATE TABLE cliente (
   dni VARCHAR(8) NOT NULL,
   usuario VARCHAR(225) NOT NULL,
   contrasena VARCHAR(225) NOT NULL,
-  estado BIT NOT NULL
+  estado BIT DEFAULT 1 NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- Estructura tabla `lciente_direccion`
@@ -55,7 +55,7 @@ CREATE TABLE proveedores (
   email VARCHAR(100) NOT NULL,
   telefono VARCHAR(15) NOT NULL,
   direccion VARCHAR(255) NOT NULL,
-  estado BIT NOT NULL
+  estado BIT DEFAULT 1 NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- Estructura de tabla para la tabla `producto`
@@ -63,11 +63,11 @@ CREATE TABLE producto (
   idProducto INT AUTO_INCREMENT PRIMARY KEY,
   nombre VARCHAR(100) NOT NULL,
   descripcion VARCHAR(225) NOT NULL,
-  precio FLOAT(53) NOT NULL,
+  precio DECIMAL(10, 2) NOT NULL, 
   stockMinimo INT NOT NULL,
   stock INT NOT NULL,
-  idCategoria INT NULL,
-  estado BIT NOT NULL,
+  idCategoria INT NOT NULL,
+  estado BIT DEFAULT 1 NOT NULL,
   FOREIGN KEY (idCategoria) REFERENCES categoria(idCategoria)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
