@@ -3,8 +3,6 @@ package com.Electronica.backend.model;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -28,9 +26,8 @@ public class Producto {
     private int StockMinimo;
     @Column(name = "stock")
     private int Stock;
-    @ManyToOne
-    @JoinColumn(name = "idCategoria")
-    private Categoria Categoria;
+    @Column(name = "idCategoria")
+    private int idCategoria;
     @Column(name = "estado")
-    private boolean Estado;
+    private boolean Estado=true;
 }

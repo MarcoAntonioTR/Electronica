@@ -28,6 +28,6 @@ public class Administrador {
     @Column(name = "telefono", length = 9)
     private String Telefono;
     @Column(name = "estado")
-    private boolean Estado;
+    private boolean Estado=true;
 }
 

@@ -28,5 +28,5 @@ public class Cliente {
     @Column(name = "contrasena", length = 225)
     private String Contrasena;
     @Column(name = "estado")
-    private boolean Estado;
+    private boolean Estado=true;
 }

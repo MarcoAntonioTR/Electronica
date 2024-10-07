@@ -53,8 +53,8 @@ public class CategoriaController {
     // Eliminar un cliente usando el método DELETE
     @DeleteMapping("/EliminarCategoria/{id}")
     public ResponseEntity<Void> eliminar(@PathVariable int id) {
-        Optional<Categoria> cliente = categoriaService.buscarPorId(id);
-        if (cliente.isPresent()) {
+        Optional<Categoria> categoria = categoriaService.buscarPorId(id);
+        if (categoria.isPresent()) {
             categoriaService.eliminar(id);
             return ResponseEntity.noContent().build(); // 204 No Content
         } else {

@@ -27,5 +27,5 @@ public class Proveedores {
     @Column(name = "direccion", length = 255)
     private String Direccion;
     @Column(name = "estado")
-    private boolean Estado;
+    private boolean Estado=true;
 }
